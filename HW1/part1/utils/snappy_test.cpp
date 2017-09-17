@@ -9,14 +9,29 @@ using namespace std;
 
 #if 1
 void compress_data(){
-	string input = "Hello World";
+	string input = "a";
 	string output;
-	for (int i = 0; i < 5; ++i) {
-		input += input;
+	
+	// Generate 1k Data
+	for (int i = 0; i < 1023; ++i) {
+		string temp = " ";
+		temp[0] = ' ' + (i % 95);
+		input += temp;
 	}
+
+	// Compress
 	snappy::Compress(input.data(), input.size(), &output);
 	cout << "input size:" << input.size() << " output size:"
 		<< output.size() << endl;
+	
+	// Uncompress
+	string output_uncom;
+	snappy::Uncompress(output.data(), output.size(), &output_uncom);
+	if (input == output_uncom) {
+		cout << "Equal" << endl;
+	} else {
+		cout << "ERROR: not equal" << endl;
+	}
 }
 #endif
 
