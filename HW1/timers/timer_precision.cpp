@@ -94,7 +94,7 @@ void gettimeofday_resolution() {
 		if (n > max_iter) { max_iter = n;}
 	}
 	cout << "\t" << "gettimeofday() Resolution:\t\t" << " avg = " <<
-		(static_cast<double>(sum) / static_cast<double>(MILLION)) << "ms"
+		(static_cast<double>(sum) / static_cast<double>(MILLION)) << "us"
 		<< ", min = " << min << ", max = " <<  max << ", avg iter = " 
 		<< (iteration_count / static_cast<double>(MILLION)) << ", min iter = "
 		<< min_iter << ", max iter = " << max_iter << endl;
