@@ -1,0 +1,794 @@
+The system is: Linux - 4.4.0-93-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_77a69/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77a69.dir/build.make CMakeFiles/cmTC_77a69.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77a69.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_77a69.dir/testCCompiler.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_77a69
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77a69.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77a69.dir/testCCompiler.c.o  -o cmTC_77a69 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_636a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_636a3.dir/build.make CMakeFiles/cmTC_636a3.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_636a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636a3.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o  -o cmTC_636a3 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_636a3' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5UiL4a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_636a3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_636a3/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_636a3.dir/build.make CMakeFiles/cmTC_636a3.dir/build]
+  ignore line: [make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_636a3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_636a3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o  -o cmTC_636a3 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_636a3' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5UiL4a.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_636a3 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5UiL4a.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_636a3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_636a3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5481/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5481.dir/build.make CMakeFiles/cmTC_a5481.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5481.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_a5481.dir/feature_tests.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_a5481
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5481.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a5481.dir/feature_tests.c.o  -o cmTC_a5481 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bbad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bbad.dir/build.make CMakeFiles/cmTC_5bbad.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bbad.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_5bbad.dir/feature_tests.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_5bbad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bbad.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_5bbad.dir/feature_tests.c.o  -o cmTC_5bbad -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f2660/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f2660.dir/build.make CMakeFiles/cmTC_f2660.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2660.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_f2660.dir/feature_tests.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f2660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2660.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f2660.dir/feature_tests.c.o  -o cmTC_f2660 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1ac8c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ac8c.dir/build.make CMakeFiles/cmTC_1ac8c.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1ac8c.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_1ac8c.dir/testCXXCompiler.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_1ac8c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ac8c.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_1ac8c.dir/testCXXCompiler.cxx.o  -o cmTC_1ac8c -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8f79/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8f79.dir/build.make CMakeFiles/cmTC_a8f79.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_a8f79
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8f79.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8f79 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8f79' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0w6Et.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8f79 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a8f79/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a8f79.dir/build.make CMakeFiles/cmTC_a8f79.dir/build]
+  ignore line: [make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_a8f79]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8f79.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_a8f79 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.4' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.4) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a8f79' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccM0w6Et.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_a8f79 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccM0w6Et.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a8f79] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_a8f79.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_01ec6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_01ec6.dir/build.make CMakeFiles/cmTC_01ec6.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01ec6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_01ec6.dir/feature_tests.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_01ec6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01ec6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_01ec6.dir/feature_tests.cxx.o  -o cmTC_01ec6 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e36c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e36c4.dir/build.make CMakeFiles/cmTC_e36c4.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e36c4.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_e36c4.dir/feature_tests.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e36c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e36c4.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e36c4.dir/feature_tests.cxx.o  -o cmTC_e36c4 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8705/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8705.dir/build.make CMakeFiles/cmTC_b8705.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8705.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_b8705.dir/feature_tests.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_b8705
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8705.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_b8705.dir/feature_tests.cxx.o  -o cmTC_b8705 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1aa7f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1aa7f.dir/build.make CMakeFiles/cmTC_1aa7f.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1aa7f.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1aa7f.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1aa7f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aa7f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1aa7f.dir/CheckIncludeFile.c.o  -o cmTC_1aa7f -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60ed7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60ed7.dir/build.make CMakeFiles/cmTC_60ed7.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60ed7.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_60ed7.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60ed7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60ed7.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_60ed7.dir/CheckIncludeFile.c.o  -o cmTC_60ed7 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62e93/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62e93.dir/build.make CMakeFiles/cmTC_62e93.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62e93.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_62e93.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_62e93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62e93.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_62e93.dir/CheckIncludeFile.c.o  -o cmTC_62e93 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6e800/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6e800.dir/build.make CMakeFiles/cmTC_6e800.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e800.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6e800.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_6e800
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e800.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6e800.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_6e800 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file byteswap.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af47d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af47d.dir/build.make CMakeFiles/cmTC_af47d.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af47d.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_af47d.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_af47d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af47d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_af47d.dir/CheckIncludeFile.c.o  -o cmTC_af47d -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e37e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e37e.dir/build.make CMakeFiles/cmTC_9e37e.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e37e.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9e37e.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9e37e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e37e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9e37e.dir/CheckIncludeFile.c.o  -o cmTC_9e37e -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c28d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c28d.dir/build.make CMakeFiles/cmTC_6c28d.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c28d.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_6c28d.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6c28d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c28d.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_6c28d.dir/CheckIncludeFile.c.o  -o cmTC_6c28d -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af2a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af2a9.dir/build.make CMakeFiles/cmTC_af2a9.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af2a9.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_af2a9.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_af2a9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af2a9.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_af2a9.dir/CheckIncludeFile.c.o  -o cmTC_af2a9 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bb14c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bb14c.dir/build.make CMakeFiles/cmTC_bb14c.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb14c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bb14c.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bb14c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb14c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_bb14c.dir/CheckIncludeFile.c.o  -o cmTC_bb14c -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d487c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d487c.dir/build.make CMakeFiles/cmTC_d487c.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d487c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_d487c.dir/CheckIncludeFile.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d487c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d487c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d487c.dir/CheckIncludeFile.c.o  -o cmTC_d487c -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function zlibVersion exists in the z passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_018c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_018c5.dir/build.make CMakeFiles/cmTC_018c5.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_018c5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=zlibVersion   -o CMakeFiles/cmTC_018c5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_018c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_018c5.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=zlibVersion    CMakeFiles/cmTC_018c5.dir/CheckFunctionExists.c.o  -o cmTC_018c5 -rdynamic -lz 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0e45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0e45.dir/build.make CMakeFiles/cmTC_e0e45.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e0e45.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_BUILTIN_EXPECT   -o CMakeFiles/cmTC_e0e45.dir/src.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e0e45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0e45.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_BUILTIN_EXPECT    CMakeFiles/cmTC_e0e45.dir/src.cxx.o  -o cmTC_e0e45 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return __builtin_expect(0, 1); }
+Performing C++ SOURCE FILE Test HAVE_BUILTIN_CTZ succeeded with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50be8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50be8.dir/build.make CMakeFiles/cmTC_50be8.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_50be8.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_BUILTIN_CTZ   -o CMakeFiles/cmTC_50be8.dir/src.cxx.o -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_50be8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50be8.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_BUILTIN_CTZ    CMakeFiles/cmTC_50be8.dir/src.cxx.o  -o cmTC_50be8 -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return __builtin_ctzll(0); }
+Determining if the mmap exist passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_97e2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_97e2e.dir/build.make CMakeFiles/cmTC_97e2e.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97e2e.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_97e2e.dir/CheckSymbolExists.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_97e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97e2e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_97e2e.dir/CheckSymbolExists.c.o  -o cmTC_97e2e -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+File /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/mman.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mmap
+  return ((int*)(&mmap))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sysconf exist passed with the following output:
+Change Dir: /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_624cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_624cd.dir/build.make CMakeFiles/cmTC_624cd.dir/build
+make[1]: Entering directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_624cd.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_624cd.dir/CheckSymbolExists.c.o   -c /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_624cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_624cd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_624cd.dir/CheckSymbolExists.c.o  -o cmTC_624cd -rdynamic 
+make[1]: Leaving directory '/afs/cs.wisc.edu/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp'
+
+File /u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

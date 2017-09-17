@@ -1,0 +1,9 @@
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/list_install_components.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/install.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/rebuild_cache.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/edit_cache.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/test.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/snappy.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/snappy_unittest.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/install/local.dir
+/u/s/h/sharath/private/cs739/snappy/build/CMakeFiles/install/strip.dir
