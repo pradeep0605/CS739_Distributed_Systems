@@ -109,4 +109,3 @@ int main() {
 	gettimeofday_resolution();
 	return 0;
 }
-	
