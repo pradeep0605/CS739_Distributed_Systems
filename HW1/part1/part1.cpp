@@ -64,26 +64,27 @@ void print_cache_time() {
 	min = ULLONG_MAX;
 	// Number fetched from lscpu
 	int l1_size = 32 * 1024, l2_size = 256 * 1024, l3_size = 6144 * 1024;
-	int total_size = l1_size + l2_size + l3_size;
+	// int total_size = l1_size + l2_size + l3_size;
+	int total_size = l3_size;
 	// leave some space in cache for other things.
 	total_size -= (100 * 1024);
 
 	unique_ptr<char[]> buffer = make_unique<char[]>(total_size);
+	char *buf = buffer.get();
 	// Bring everything into cache with 0th index bytes present in l1 cache, 0th +
 	// 32k index bytes present in L3 and 0th + 32k + 256k bytes present in l3.
 
-	// hopefully all the cache hot by the end of this loop
-	for(int i = total_size -1; i >= 0; --i) {
-		buffer[i] = (i % 256);
+	// hopefully all the caches are hot by the end of this loop
+	for(int k = total_size -1; k >= 0; --k) {
+		buf[k] = (k % 256);
 	}
-
+	
 	iterations= 0;
 	max = sum = 0;
 	min = ULLONG_MAX;
 	register int reg = 0;
 	int helper = 0;
-	char *buf = buffer.get();
-	int i = 0;
+	register int i = 0;
 
 	for (i = 0; i < l1_size; ++i) {
 		iterations++;
@@ -103,11 +104,18 @@ void print_cache_time() {
 	cout << "L1 cache times :\t\t avg = "
 			<< (static_cast<double>(sum) / static_cast<double>(iterations))
 		<< " ns,\tmin = " << min << ",\tmax = " << max << endl;
+	
+	// Bring the cache back the the same locality.
+	for(int k = total_size -1; k >= 0; --k) {
+		buf[k] = (k % 256);
+	}
 
 	iterations= 0;
 	max = sum = 0;
 	min = ULLONG_MAX;
 	int start_idx = i;
+	// int skip_size = 1024 * 2 /* 2k */;
+	int skip_size = 1024 /* 2k */;
 	for (; i < start_idx + l2_size; i += l1_size) {
 		iterations++;
 		clock_gettime(CLOCK_REALTIME, &start);
@@ -126,11 +134,16 @@ void print_cache_time() {
 			<< (static_cast<double>(sum) / static_cast<double>(iterations))
 		<< " ns,\tmin = " << min << ",\tmax = " << max << endl;
 
+	// Bring the cache back the the same locality.
+	for(int k = total_size -1; k >= 0; --k) {
+		buf[k] = (k % 256);
+	}
+
 	iterations= 0;
 	max = sum = 0;
 	min = ULLONG_MAX;
 	start_idx = i;
-	for (; i < l3_size; i += l2_size) {
+	for (; i < total_size; i += l2_size) {
 		iterations++;
 		clock_gettime(CLOCK_REALTIME, &start);
 		reg = buf[i];
@@ -144,6 +157,7 @@ void print_cache_time() {
 		if (diff < min) { min = diff;}
 		if (diff > max) { max = diff;}
 	}
+
 	cout << "L3 cache times :\t\t avg = "
 			<< (static_cast<double>(sum) / static_cast<double>(iterations))
 			<< " ns,\tmin = " << min << ",\tmax = " << max << ", helper = " << helper 
@@ -279,14 +293,22 @@ void print_main_mem_reference_time() {
 	// 1 GB
 	int n = _1_mb * 1024 / sizeof(uint64);
 	// skip 7 mb at once
-	int skip = (_1_mb * 7) / sizeof(uint64);
+	int skip = (_1_mb * 1) / sizeof(uint64);
 	int iterations = 0;
 	unique_ptr<uint64[]> ptr = make_unique<uint64[]>(n);
+	uint64 *buf = ptr.get();
+
+	// Make sure there will be no page faults.
+	for (register int i = 0; i < n; i++) {
+		buf[i]= i;
+	}
+
+	register int helper = 0;
 	for (register int i = 0; i < n; i += skip) {
 		iterations++;
 		clock_gettime(CLOCK_REALTIME, &start);
 		// Access the memory
-		ptr[i] = i;
+		buf[i] = i;
 		clock_gettime(CLOCK_REALTIME, &end);
 		
 		uint64 diff = convert_to_time(end) - convert_to_time(start);
@@ -307,7 +329,7 @@ void read_1mb_from_disk() {
 	uint64 min, max, sum;
 	max = sum = 0;
 	min = ULLONG_MAX;
-	int n = 1;
+	int n = 10;
 	for(int i = 0; i < n; ++i) {
 		const char *test_file =
 			static_cast<const char*>(string("test_file").c_str());
