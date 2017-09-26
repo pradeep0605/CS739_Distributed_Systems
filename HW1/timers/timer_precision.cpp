@@ -37,7 +37,7 @@ string clock_name(int clock_id) {
 }
 
 void clock_gettime_resolution(int clock_id) {
-	TimeSpec start, end;
+	TimeSpec start, end, temp;
 	uint64 sum = 0, iteration_count = 0;
 	uint64 min = ULLONG_MAX, max = 0;
 	uint64 min_iter = ULLONG_MAX, max_iter = 0;
@@ -45,15 +45,15 @@ void clock_gettime_resolution(int clock_id) {
 	
 	for (int repeat = 0; repeat < MILLION; ++repeat) {
 		int n = 0;
-		clock_gettime(clock_id, &start);
-		clock_gettime(clock_id, &end);
+			clock_gettime(clock_id, &start);
+			clock_gettime(clock_id, &end);
 		while ((convert_to_time(end) - convert_to_time(start)) <= 0) {
 			clock_gettime(clock_id, &start);
 			for(int i = 0; i < n; ++i) {}
 			clock_gettime(clock_id, &end);
 			n++;
 		}
-		uint64 diff = convert_to_time(end) - convert_to_time(start);
+		uint64 diff = (convert_to_time(end) - convert_to_time(start));
 		sum += diff;
 		iteration_count += n;
 		if (diff < min) { min = diff; }
@@ -61,11 +61,36 @@ void clock_gettime_resolution(int clock_id) {
 		if (n < min_iter) { min_iter = n;}
 		if (n > max_iter) { max_iter = n;}
 	}
+
 	cout << "\t" << clock_name(clock_id) << " Resolution:\t\t" << " avg = " <<
 		(static_cast<double>(sum) / static_cast<double>(MILLION)) << "ns"
 		<< ", min = " << min << ", max = " <<  max << ", avg iter = " 
 		<< (iteration_count / static_cast<double>(MILLION)) << ", min iter = "
 		<< min_iter << ", max iter = " << max_iter << endl;
+	
+	sum = iteration_count = 0;
+	min = ULLONG_MAX; max = 0;
+	min_iter = ULLONG_MAX; max_iter = 0;
+
+	for (int repeat = 0; repeat < MILLION; ++repeat) {
+		iteration_count++;	
+		clock_gettime(clock_id, &start);
+		clock_gettime(clock_id, &temp);
+		clock_gettime(clock_id, &end);
+		
+		uint64 diff = (convert_to_time(end) - convert_to_time(start)) - 
+				((convert_to_time(temp) - convert_to_time(start)));
+		sum += diff;
+		if (diff < min) { min = diff; }
+		if (diff > max) { max = diff; }
+	}
+
+	cout << "\t" << clock_name(clock_id) 
+			 << " clock_gettime :\t\t" << " avg = "
+			 << (static_cast<double>(sum) / static_cast<double>(iteration_count))
+			 << "ns"
+			 << ", min = " << min << ", max = " <<  max << endl;;
+	
 }
 
 void gettimeofday_resolution() {
@@ -99,6 +124,7 @@ void gettimeofday_resolution() {
 		<< (iteration_count / static_cast<double>(MILLION)) << ", min iter = "
 		<< min_iter << ", max iter = " << max_iter << endl;
 }
+
 
 int main() {
 	cout << "clock_gettime() reslution:\n";

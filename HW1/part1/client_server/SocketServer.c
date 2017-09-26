@@ -113,12 +113,16 @@ int main(int argc, char *argv[]) {
 	for (i = 0; i < NUM_TRIALS; ++i) {
 		TimeSpec start, end;
 
+
+
 		clock_gettime(CLOCK_REALTIME, &start);
 		if ((ret = write_full(fd, _buffer, packet_size)) < 0) {
 			socketperror("Error %d: at line %d: i = %d: write pktsize: %d\n",
 			ret, __LINE__, i, packet_size);
 		}
 		clock_gettime(CLOCK_REALTIME, &end);
+
+
 
 		while ((ret = read_full(fd, _buffer, packet_size)) < 0) {
 			socketperror("Error %d: at line %d: i = %d: read pktsize: %d\n",
